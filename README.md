@@ -1,9 +1,5 @@
 # MestreMovil NMR
 
-<p align="center">
-  <img src="screenshots/banner.png" width="800">
-</p>
-
 **MestreMovil** is an Android application for processing and analyzing **Nuclear Magnetic Resonance (NMR)** spectra directly from your phone or tablet.
 
 The goal of this project is simple: bring the essential workflow of desktop NMR software to Android, allowing researchers and students to inspect spectra anywhere without needing a computer.
