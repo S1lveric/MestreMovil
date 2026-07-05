@@ -27,7 +27,10 @@ The goal of this project is simple: bring the essential workflow of desktop NMR 
 ## 📸 Screenshots
 
 | Spectrum | Peak Picking | Solvent Reference |
-|-----------|--------------|-------------------|
+|<img width="2560" height="1600" alt="Screenshot_2026-07-05-12-37-34-377_com example mestremovil" src="https://github.com/user-attachments/assets/61b368dd-017a-4200-8272-f2bfe6ae15a8" />
+|<img width="2560" height="1600" alt="Screenshot_2026-07-05-12-38-50-452_com example mestremovil" src="https://github.com/user-attachments/assets/b7b1a278-ccd2-4e83-a391-032aac75a259" />
+|<img width="2560" height="1600" alt="Screenshot_2026-07-05-12-37-51-139_com example mestremovil" src="https://github.com/user-attachments/assets/e1e2ac52-bde8-435a-b32d-2c6404b0958b" />
+|
 | ![](screenshots/spectrum.png) | ![](screenshots/peakpicking.png) | ![](screenshots/reference.png) |
 
 ---
