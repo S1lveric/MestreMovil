@@ -1,22 +1,50 @@
 # MestreMovil NMR
 
-**MestreMovil** is an Android application for processing and analyzing **Nuclear Magnetic Resonance (NMR)** spectra directly from your phone or tablet.
+**MestreMovil** is an open-source Android application for processing and analyzing **Nuclear Magnetic Resonance (NMR)** spectra directly on phones and tablets.
 
-The goal of this project is simple: bring the essential workflow of desktop NMR software to Android, allowing researchers and students to inspect spectra anywhere without needing a computer.
+The project aims to bring the essential workflow of desktop NMR software to Android, allowing researchers, students, and chemists to inspect and analyze spectra anywhere without requiring a laptop.
 
-> ⚠️ MestreMovil is currently in **early development**. New features will be added continuously.
+> ⚠️ MestreMovil is currently under active development. New features are added regularly.
 
 ---
 
-## ✨ Current Features
+# ✨ Current Features
 
-- 📂 Open **Bruker 1D FID datasets** directly from device storage.
-- ⚡ Fast spectrum processing and visualization.
-- 🤏 Smooth pinch-to-zoom and panning.
-- 📈 Automatic vertical scaling (Auto Height Adjust).
-- 📍 Interactive Peak Picking.
-- 🧪 Automatic solvent referencing.
-- 📱 Optimized for phones and tablets.
+## 📂 Data Support
+
+- Open **Bruker 1D experiments** directly from device storage.
+- Native binary FID parsing.
+- Automatic spectrum generation.
+
+---
+
+## 📱 Mobile Visualization
+
+- High-performance spectrum rendering.
+- Smooth pinch-to-zoom.
+- Touch panning.
+- Automatic vertical scaling.
+- Session persistence.
+- Optimized for Android phones and tablets.
+
+---
+
+## 🧪 Processing
+
+- Automatic phase correction during spectrum loading.
+- Interactive manual phase correction.
+
+---
+
+## 🔬 Analysis Tools
+
+- Interactive Peak Picking.
+- Persistent peak annotations.
+- Solvent-based chemical shift referencing.
+- Interactive ppm cursors.
+- Manual integration with proton normalization.
+- Multiplet analysis.
+- Automatic J-coupling calculation.
 
 ---
 
@@ -31,63 +59,77 @@ The goal of this project is simple: bring the essential workflow of desktop NMR 
 
 ---
 
-## 🚧 Roadmap
+# 🚧 Roadmap
 
-The following features are planned for future releases:
+## Processing
 
-- [ ] Manual and automatic phase correction
-- [ ] Baseline correction
-- [ ] Integration
-- [ ] Multiplet analysis
-- [ ] Automatic J-coupling calculation
-- [ ] Peak tables
+- [ ] Automatic baseline correction
+- [ ] Manual baseline correction
 - [ ] Processing parameter editing
-- [ ] Fourier Transform options
-- [ ] Support for additional vendor formats
-- [ ] 2D NMR datasets (COSY, HSQC, HMBC)
+- [ ] Window functions
+- [ ] Zero Filling
+- [ ] Line Broadening
+
+## Analysis
+
+- [ ] Peak tables
+- [ ] Integral tables
+- [ ] Multiplet tables
+- [ ] Advanced multiplet classification
+- [ ] Spectrum annotations
+
+## Export
+
+- [ ] PNG export
+- [ ] PDF reports
+- [ ] CSV export
+
+## Advanced Features
+
 - [ ] Spectrum overlay
-- [ ] Export figures and reports
+- [ ] Additional vendor formats
+- [ ] 2D NMR datasets (COSY, HSQC, HMBC, NOESY)
 
 ---
 
-## 🛠️ Built With
+# 🛠 Built With
 
-- **Kotlin**
-- **Jetpack Compose**
-- Android Canvas API for high-performance spectrum rendering
-
----
-
-## 🎯 Project Goals
-
-MestreMovil aims to become a lightweight, responsive, and accessible NMR analysis tool for Android devices.
-
-The focus is on:
-
-- Fast loading of large datasets.
-- Native touch interaction.
-- Clean and intuitive interface.
-- Essential processing tools.
-- Completely offline operation.
+- Kotlin
+- Jetpack Compose
+- Android Canvas API
+- Native Android SDK
 
 ---
 
-## 🤝 Contributing
+# 🎯 Project Goals
+
+MestreMovil aims to become a lightweight yet powerful mobile NMR analysis platform by focusing on:
+
+- Native Android experience
+- Fast processing of Bruker datasets
+- Professional touch-first interaction
+- Offline operation
+- Modular architecture
+- Open-source development
+
+---
+
+# 🤝 Contributing
 
 Contributions, feature requests, bug reports, and suggestions are always welcome.
 
-Feel free to open an issue or submit a pull request.
+Feel free to open an Issue or submit a Pull Request.
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is released under the MIT License.
+Released under the MIT License.
 
 ---
 
-## ⭐ Support the Project
+# ⭐ Support the Project
 
-If you find MestreMovil useful, consider giving the repository a ⭐ on GitHub.
+If you find MestreMovil useful, please consider giving the repository a ⭐.
 
-It helps the project grow and motivates future development.
+It helps increase the visibility of the project and motivates future development.
